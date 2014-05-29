@@ -1,6 +1,18 @@
 {
   "name": "broccoli-more",
   "version": "0.1.0",
+  "description": "LESS for Broccoli with dependency tracking",
+  "author": "Szymon Witamborski <szywon@szywon.pl>",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szywon/broccoli-more.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szywon/broccoli-more/issues"
+  },
   "dependencies": {
     "broccoli-dep-filter": "^0.1",
     "less": "^1.7.0",
