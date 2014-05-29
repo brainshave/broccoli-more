@@ -1,0 +1,13 @@
+{
+  "name": "broccoli-more",
+  "version": "0.1.0",
+  "dependencies": {
+    "broccoli-dep-filter": "^0.1",
+    "less": "^1.7.0",
+    "rsvp": "^3.0.0"
+  },
+  "devDependencies": {
+    "broccoli": "^0.12.1",
+    "broccoli-cli": "*"
+  }
+}
