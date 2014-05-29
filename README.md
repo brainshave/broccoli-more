@@ -10,7 +10,7 @@ too. (Uses [broccoli-dep-filter] [broccoli-dep-filter])
 
 ## Usage
 
-`more(input_tree, less_options)`, where `less_options are passed
+`less(input_tree, less_options)`, where `less_options` are passed
 directly to the LESS compiler.
 
     var less = require("broccoli-more");
