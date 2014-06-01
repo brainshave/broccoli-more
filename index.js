@@ -8,7 +8,9 @@ module.exports = setup;
 
 function setup (input_tree, less_config) {
 
-  return filter(input_tree, {
+  return filter({
+    trees: [input_tree].concat(less_config.paths || []),
+    iterated: [0],
     extensions: ["less"],
     target: "css",
     process: compile_less
