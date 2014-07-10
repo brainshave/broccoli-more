@@ -13,7 +13,8 @@ function setup (input_tree, less_config) {
     iterated: [0],
     extensions: ["less"],
     target: "css",
-    process: compile_less
+    process: compile_less,
+    name: "Less (more)"
   });
 
   function compile_less (str) {
