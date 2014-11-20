@@ -7,6 +7,7 @@ var RSVP = require("rsvp");
 module.exports = setup;
 
 function setup (input_tree, less_config) {
+  less_config = less_config || {};
 
   return filter({
     trees: [input_tree].concat(less_config.paths || []),

@@ -1,6 +1,6 @@
 {
   "name": "broccoli-more",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "LESS for Broccoli with dependency tracking",
   "author": "Szymon Witamborski <szywon@szywon.pl>",
   "engines": {
