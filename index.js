@@ -26,7 +26,10 @@ function setup (input_tree, less_config) {
           return reject(err);
         }
 
-        resolve(data);
+        resolve({
+          content: data.css,
+          deps: data.imports
+        });
       });
     });
   }
